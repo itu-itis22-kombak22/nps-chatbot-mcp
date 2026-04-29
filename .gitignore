@@ -1,7 +1,5 @@
 .env
 __pycache__/
 *.pyc
-data/raw/
-data/processed/
-*.parquet
+data/raw/*.csv
 .DS_Store
