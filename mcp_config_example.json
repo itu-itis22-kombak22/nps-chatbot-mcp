@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "nps-chatbot": {
+      "command": "python",
+      "args": ["/absolute/path/to/nps-chatbot-mcp/server.py"],
+      "env": {
+        "OPENAI_API_KEY": "your-api-key",
+        "OPENAI_BASE_URL": "http://your-onprem-host:port/v1",
+        "LLM_MODEL": "gpt-oss120b"
+      }
+    }
+  }
+}
